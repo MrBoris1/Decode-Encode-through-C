@@ -1,6 +1,6 @@
 Encoding and Decoding Text
 
-**Introduction
+## Introduction
 
 I used an encoding and decoding mechanism derived from [Bacon's Cipher](https://en.wikipedia.org/wiki/Bacon%27s_cipher), a cipher first documented by Frances Bacon in 1605. Some early conspiracy theorists proposed that Bacon actually wrote the works of Shakespeare, and included hints about the true authorship in Baconian cipher in the Shakespeare first folio printing. That theory has been virtually disproved by, among others, [Elizebeth Smith Friedman](https://en.wikipedia.org/wiki/Elizebeth_Smith_Friedman), who, with her husband, was one of the most important developers of the modern science of cryptolog
 
@@ -14,16 +14,16 @@ Finally, by convention, we will leave all newline characters (\n) untranslated s
 
 When the make file executed every diffrents will be reported to you. If the the text provided encode and decoded with out diffrence no error will be giving as output. However if there is a diffrent in the text it will  be reported, this include the non-alphabetical values its will be converted to asterisk (*) and this will be reported the diffrence.
 
-**Provided 
+## Provided 
 
 The repository contains this files, as follows:
 
--> baconCode.h -> An include file that contains some basic constants to use in encoding and decoding; `alfa`, `vowels`, and `consonants`. The `alfa` string contains the list of characters in the raw text alphabet in the order to be used. The `vowels` string contains a list of all possible vowels to be used in the encoded text, and the `consonants` string contains all possible consonants to be used in the encoded text.
+-> baconCode.h -> An include file that contains some basic constants to use in encoding and decoding; alfa, vowels, and consonants. The alfa string contains the list of characters in the raw text alphabet in the order to be used. The `vowels` string contains a list of all possible vowels to be used in the encoded text, and the consonants string contains all possible consonants to be used in the encoded text.
   
--> baconEncode.c -> The start of the program to encode raw text into ciphered text.  This file implement the Bacon encoding algorithm. 
+-> baconEncode.c -> The start of the program to encode raw text into ciphered text. This file implement the Bacon encoding algorithm. 
 
--> baconDecode.c -> The start of the program to decode the encoded text and recover the raw text. this file implement the Bacon decoding algorithm.
+-> baconDecode.c -> The start of the program to decode the encoded text and recover the raw text. This file implement the Bacon decoding algorithm.
 
 -> test.txt -> Some arbitrary raw text to try out your encode and decode programs.
 
--> Makefile -> A make file to simplify building and testing the code. It includes targets to make the baconEncode and baconDecode programs, as well as `test` and `clean` targets.
+-> Makefile -> A make file to simplify building and testing the code. It includes targets to make the baconEncode and baconDecode programs, as well as test and clean targets.
