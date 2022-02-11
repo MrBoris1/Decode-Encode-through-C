@@ -18,7 +18,7 @@ When the make file executed every diffrents will be reported to you. If the the 
 
 The repository contains this files, as follows:
 
--> baconCode.h -> An include file that contains some basic constants to use in encoding and decoding; alfa, vowels, and consonants. The alfa string contains the list of characters in the raw text alphabet in the order to be used. The `vowels` string contains a list of all possible vowels to be used in the encoded text, and the consonants string contains all possible consonants to be used in the encoded text.
+-> baconCode.h -> An include file that contains some basic constants to use in encoding and decoding; alfa, vowels, and consonants. The alfa string contains the list of characters in the raw text alphabet in the order to be used. The vowels string contains a list of all possible vowels to be used in the encoded text, and the consonants string contains all possible consonants to be used in the encoded text.
   
 -> baconEncode.c -> The start of the program to encode raw text into ciphered text. This file implement the Bacon encoding algorithm. 
 
