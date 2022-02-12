@@ -14,7 +14,7 @@ Finally, by convention, we will leave all newline characters (\n) untranslated s
 
 When the make file executed every diffrents will be reported to you. If the the text provided encode and decoded with out diffrence no error will be giving as output. However if there is a diffrent in the text it will  be reported, this include the non-alphabetical values its will be converted to asterisk (*) and this will be reported the diffrence.
 
-## Provided 
+## Provided in the Repostory
 
 The repository contains this files, as follows:
 
